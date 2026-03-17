@@ -179,4 +179,4 @@ require (
 
 // For fork-based development, point this replace at your opentelemetry-ebpf-profiler fork
 // or local checkout, then run `go mod tidy`.
-replace go.opentelemetry.io/ebpf-profiler => /home/discord/dev/otel_fullhost_mar17
+replace go.opentelemetry.io/ebpf-profiler => github.com/sanchda/opentelemetry-ebpf-profiler v0.0.0-20260317190507-8eff536cbd82

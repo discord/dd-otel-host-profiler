@@ -310,6 +310,8 @@ github.com/richardartoul/molecule v1.0.1-0.20240531184615-7ca0df43c0b3 h1:4+LEVO
 github.com/richardartoul/molecule v1.0.1-0.20240531184615-7ca0df43c0b3/go.mod h1:vl5+MqJ1nBINuSsUI2mGgH79UweUT/B5Fy8857PqyyI=
 github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=
 github.com/rogpeppe/go-internal v1.14.1/go.mod h1:MaRKkUm5W0goXpeCfT7UZI6fk/L7L7so1lCWt35ZSgc=
+github.com/sanchda/opentelemetry-ebpf-profiler v0.0.0-20260317190507-8eff536cbd82 h1:fITkIKi1s/38A2zy37RuJBmtREC28L8ngEPJVOIkRt8=
+github.com/sanchda/opentelemetry-ebpf-profiler v0.0.0-20260317190507-8eff536cbd82/go.mod h1:KEBv+q78RzBcDPNFm1WB0V0za14gY95E/Atp3dJZ/8M=
 github.com/secure-systems-lab/go-securesystemslib v0.9.0 h1:rf1HIbL64nUpEIZnjLZ3mcNEL9NBPB0iuVjyxvq3LZc=
 github.com/secure-systems-lab/go-securesystemslib v0.9.0/go.mod h1:DVHKMcZ+V4/woA/peqr+L0joiRXbPpQ042GgJckkFgw=
 github.com/shirou/gopsutil/v4 v4.25.3 h1:SeA68lsu8gLggyMbmCn8cmp97V1TI9ld9sVzAUcKcKE=
