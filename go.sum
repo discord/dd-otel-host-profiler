@@ -97,8 +97,8 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8Yc
 github.com/dgryski/go-farm v0.0.0-20190423205320-6a90982ecee2/go.mod h1:SqUrOPUnsFjfmXRMNPybcSiG0BgUW2AuFH8PAnS2iTw=
 github.com/dgryski/go-farm v0.0.0-20240924180020-3414d57e47da h1:aIftn67I1fkbMa512G+w+Pxci9hJPB8oMnkcP3iZF38=
 github.com/dgryski/go-farm v0.0.0-20240924180020-3414d57e47da/go.mod h1:SqUrOPUnsFjfmXRMNPybcSiG0BgUW2AuFH8PAnS2iTw=
-github.com/discord/opentelemetry-ebpf-profiler v0.0.0-20260317193438-3842394e8bd9 h1:O42F1VM17Sraj6WNHwfa3NZNi2DAZ2xj4SJ/2QaoGTE=
-github.com/discord/opentelemetry-ebpf-profiler v0.0.0-20260317193438-3842394e8bd9/go.mod h1:KEBv+q78RzBcDPNFm1WB0V0za14gY95E/Atp3dJZ/8M=
+github.com/discord/opentelemetry-ebpf-profiler v0.0.0-20260605200100-e86db848f5b7 h1:mfqjidH24PEYdBczULKHl/ZY7tkvFmcIOAR+UqP4MAU=
+github.com/discord/opentelemetry-ebpf-profiler v0.0.0-20260605200100-e86db848f5b7/go.mod h1:KEBv+q78RzBcDPNFm1WB0V0za14gY95E/Atp3dJZ/8M=
 github.com/distribution/reference v0.6.0 h1:0IXCQ5g4/QMHHkarYzh5l+u8T3t73zM5QvfrDyIgxBk=
 github.com/distribution/reference v0.6.0/go.mod h1:BbU0aIcezP1/5jX/8MP0YiH4SdvB5Y4f/wlDRiLyi3E=
 github.com/docker/docker v28.0.0+incompatible h1:Olh0KS820sJ7nPsBKChVhk5pzqcwDR15fumfAd/p9hM=
