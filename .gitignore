@@ -1,5 +1,6 @@
 .idea
 dd-otel-host-profiler
+dd-otel-host-profiler-*
 .env
 *.pprof
 .vscode

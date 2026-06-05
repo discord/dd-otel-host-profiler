@@ -1,4 +1,4 @@
-.PHONY: all build extract_symbols lint linter-version test check-copyrights licenses check-licenses docker-image profiler-in-docker
+.PHONY: all build build-arm64 extract_symbols lint linter-version test check-copyrights licenses check-licenses docker-image profiler-in-docker
 
 VERSION ?= v0.0.0
 VERSION_LD_FLAGS := -X github.com/DataDog/dd-otel-host-profiler/version.version=$(VERSION)
@@ -9,6 +9,11 @@ all: build
 
 build:
 	go build $(GO_FLAGS)
+
+ARM64_CC ?= aarch64-linux-gnu-gcc
+build-arm64:
+	GOOS=linux GOARCH=arm64 CGO_ENABLED=1 CC=$(ARM64_CC) \
+		go build $(GO_FLAGS) -o dd-otel-host-profiler-arm64
 
 GOLANGCI_LINT_VERSION = "v2.6.1"
 GO = $(shell go env GOROOT)/bin/go
