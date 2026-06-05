@@ -15,7 +15,12 @@ func TestBeamServiceName(t *testing.T) {
 		{
 			name:     "standard Elixir release path",
 			execPath: "/home/deploy/discord_presence/erts-13.2.2.4/bin/beam.smp",
-			expected: "discord_presence",
+			expected: "discord-presence",
+		},
+		{
+			name:     "discord prefix with multiple underscores",
+			execPath: "/home/deploy/discord_chat_service/erts-13.2.2.4/bin/beam.smp",
+			expected: "discord-chat-service",
 		},
 		{
 			name:     "OTP release path",
