@@ -634,7 +634,11 @@ func (r *DatadogReporter) addProcessMetadata(trace *libpf.Trace, meta *samples.T
 			service = "containerd-shim"
 		}
 	case execPath != "":
-		service = path.Base(execPath)
+		if name := beamServiceName(execPath); name != "" {
+			service = name
+		} else {
+			service = path.Base(execPath)
+		}
 		inferredService = true
 	case rsamples.IsKernel(trace.Frames):
 		service = "system"
