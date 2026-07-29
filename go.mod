@@ -8,7 +8,7 @@ require (
 	github.com/DataDog/dd-trace-go/v2 v2.2.2
 	github.com/DataDog/jsonapi v0.12.0
 	github.com/DataDog/zstd v1.5.7
-	github.com/containerd/containerd v1.7.29
+	github.com/containerd/containerd v1.7.33
 	github.com/docker/docker v28.0.0+incompatible
 	github.com/elastic/go-freelru v0.16.0
 	github.com/google/pprof v0.0.0-20241101162523-b92577c0c142
@@ -117,7 +117,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/opencontainers/runtime-spec v1.1.0 // indirect
-	github.com/opencontainers/selinux v1.13.0 // indirect
+	github.com/opencontainers/selinux v1.13.1 // indirect
 	github.com/outcaste-io/ristretto v0.2.3 // indirect
 	github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
