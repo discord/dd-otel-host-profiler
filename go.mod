@@ -8,7 +8,7 @@ require (
 	github.com/DataDog/dd-trace-go/v2 v2.2.2
 	github.com/DataDog/jsonapi v0.12.0
 	github.com/DataDog/zstd v1.5.7
-	github.com/containerd/containerd v1.7.29
+	github.com/containerd/containerd v1.7.35
 	github.com/docker/docker v28.0.0+incompatible
 	github.com/elastic/go-freelru v0.16.0
 	github.com/google/pprof v0.0.0-20241101162523-b92577c0c142
@@ -21,7 +21,7 @@ require (
 	go.opentelemetry.io/ebpf-profiler v0.0.0-20241114112653-6d846a2023a0
 	go.opentelemetry.io/otel/metric v1.42.0
 	golang.org/x/sync v0.20.0
-	golang.org/x/sys v0.42.0
+	golang.org/x/sys v0.45.0
 	k8s.io/api v0.32.3
 	k8s.io/apimachinery v0.32.3
 	k8s.io/client-go v0.32.3
@@ -117,7 +117,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/opencontainers/runtime-spec v1.1.0 // indirect
-	github.com/opencontainers/selinux v1.13.0 // indirect
+	github.com/opencontainers/selinux v1.13.1 // indirect
 	github.com/outcaste-io/ristretto v0.2.3 // indirect
 	github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -153,11 +153,11 @@ require (
 	go.uber.org/zap v1.27.1 // indirect
 	golang.org/x/arch v0.25.0 // indirect
 	golang.org/x/exp v0.0.0-20260312153236-7ab1446f8b90 // indirect
-	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/net v0.51.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
-	golang.org/x/term v0.40.0 // indirect
-	golang.org/x/text v0.34.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.12.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/genproto v0.0.0-20240325203815-454cdb8f5daa // indirect
